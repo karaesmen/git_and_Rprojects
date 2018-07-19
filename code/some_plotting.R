@@ -1,7 +1,6 @@
 library(tidyverse)
 library(plotly)
 
-head(iris)
 gg_iris <- iris %>%
     ggplot(aes(Sepal.Width, Sepal.Length,
                color = Species,
