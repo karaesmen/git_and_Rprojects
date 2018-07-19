@@ -4,7 +4,6 @@ library(plotly)
 
 ggplotly(gg_iris)
 
-
 ##### Hmmm let's see the wages
 
 wages <- read_csv("data/wages.csv")
